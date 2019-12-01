@@ -6,6 +6,9 @@
     <AssemblyName>PrismOutlook</AssemblyName>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Prism.Unity" Version="7.2.0.1367" />
+    <PackageReference Include="Prism.Unity" Version="7.2.0.1422" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Modules\PrismOutlook.Modules.Mail\PrismOutlook.Modules.Mail.csproj" />
   </ItemGroup>
 </Project>

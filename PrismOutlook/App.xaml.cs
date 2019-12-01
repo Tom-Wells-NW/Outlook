@@ -1,4 +1,6 @@
 ﻿using Prism.Ioc;
+using Prism.Modularity;
+using Prism.Outlook.Modules.Mail;
 using PrismOutlook.Views;
 using System.Windows;
 
@@ -17,6 +19,11 @@ namespace PrismOutlook
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
 
+        }
+
+        protected override void ConfigureModuleCatalog(IModuleCatalog moduleCatalog)
+        {
+            moduleCatalog.AddModule<MailModule>();
         }
     }
 }
