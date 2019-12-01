@@ -5,6 +5,8 @@
     <AssemblyName>PrismOutlook.Modules.Calendar</AssemblyName>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="Infragistics.WPF.OutlookBar" Version="19.2.52" />
+    <PackageReference Include="Infragistics.WPF.Ribbon" Version="19.2.52" />
     <PackageReference Include="Prism.Wpf" Version="7.2.0.1422" />
   </ItemGroup>
 </Project>
